@@ -1,0 +1,144 @@
+<mjml>
+  <mj-head>
+    <!--引入雲端文字-->
+    <mj-font name="Lexend" href="https://fonts.googleapis.com/css2?family=Lexend" />
+    <mj-font name="Noto Sans TC" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC" />
+    <!--樣式設定-->
+    <mj-attributes>
+      <!--以下為開發註解-->
+      <!--新書EDM上傳路徑 - http://www.iread.com.tw/EDM/newedm/yyyymmddnewedm/-->
+      <!--作家EDM上傳路徑 - http://www.iread.com.tw/EDM/famousedm/yyyymmddfamousedm/-->
+      <!--版面基本設定-->
+      <mj-section padding-top="0px" padding-bottom="0px" />
+      <mj-wrapper padding="0px" border="1px solid #ebebeb" />
+      <!--字體設定-->
+      <mj-text font-family="'Lexend', 'Noto Sans TC', sans-serif" />
+      <!--文字顏色-->
+      <mj-class name="text-primary" color="#9c8a72" />
+      <mj-class name="text-black" color="#646464" />
+      <!--header-頁首-->
+      <mj-class name="top-header" padding-top="8px" padding-bottom="0px" />
+      <mj-class name="top-header-logo" width="200px" align="left" />
+      <!--內容-版面1-Banner-->
+      <mj-class name="layout-01-banner" padding-bottom="8px" />
+      <!--內容-版面2-文字-->
+      <mj-class name="layout-02-content" padding-bottom="8px" />
+      <mj-class name="layout-02-content-title-l" padding-top="4px " padding-bottom="4px" font-size="24px" line-height="36px" font-weight="bold" />
+      <mj-class name="layout-02-content-title-m" padding-top="4px " padding-bottom="4px" font-size="20px" line-height="30px" font-weight="bold" />
+      <mj-class name="layout-02-content-text" padding-top="4px " padding-bottom="4px" font-size="16px" line-height="24px" />
+      <!--內容-書封A-->
+      <mj-class name="layout-book-a" padding-top="8px " padding-bottom="16px" />
+      <mj-class name="layout-book-a-title" padding-top="4px" padding-bottom="4px" font-size="16px" line-height="24px" />
+      <mj-class name="layout-book-a-text" padding-top="4px" padding-bottom="4px" font-size="16px" line-height="24px" />
+      <!--內容-書封B-->
+      <mj-class name="layout-book-b" padding-top="8px" padding-bottom="8px" />
+      <!--內容-書封C1-->
+      <mj-class name="layout-book-c1" padding-top="8px" padding-bottom="8px" direction="ltr" />
+      <mj-class name="layout-book-c1-title" font-size="16px" line-height="24px" font-weight="bold" />
+      <mj-class name="layout-book-c1-text" font-size="16px" line-height="24px" />
+      <!--內容-書封C2-->
+      <mj-class name="layout-book-c2" padding-top="8px" padding-bottom="8px" direction="rtl" />
+      <mj-class name="layout-book-c2-title" font-size="16px" line-height="24px" font-weight="bold" />
+      <mj-class name="layout-book-c2-text" font-size="16px" line-height="24px" />
+      <!--頁尾-備註-->
+      <mj-class name="bottom-remark" />
+      <mj-class name="bottom-remark-text" font-size="14px" line-height="21px" align="center" />
+      <!--頁尾-取消訂閱-->
+      <mj-class name="bottom-other" padding-top="0px" padding-bottom="0px" border-top="1px solid #e5e5e5" />
+      <mj-class name="bottom-other-link" font-size="14px" line-height="21px" align="center" text-decoration="underline" background-color="#ffffff" />
+      <!--頁尾-版權宣告-->
+      <mj-class name="bottom-footer" padding-top="8px" padding-bottom="8px" background-color="#ebebeb" />
+      <mj-class name="bottom-footer-text" font-size="14px" line-height="21px" align="center" />
+      <!--頁尾-開信碼-->
+      <mj-class name="bottom-letter-code" padding="0" height="0px" width="0px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper>
+      <!--header-頁首-->
+      <mj-section mj-class="top-header">
+        <mj-column>
+          <mj-image mj-class="top-header-logo" src="http://www.iread.com.tw/EDM/logo/images/iread-logo.png" href="https://www.iread.com.tw/" />
+        </mj-column>
+      </mj-section>
+      <!--自定義內容-->
+      <!--模組Banner-->
+      <mj-section mj-class="layout-01-banner">
+        <mj-column>
+          <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/banner.jpg" href="#" />
+        </mj-column>
+      </mj-section>
+      <!--模組文案-->
+      <mj-section mj-class="layout-02-text">
+        <mj-column>
+          <mj-text mj-class="layout-02-content-title-l text-primary">我是大標題文案</mj-text>
+          <mj-text mj-class="layout-02-content-title-m text-black">我是小標題文案</mj-text>
+          <mj-text mj-class="layout-02-content-text text-black"> 內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案 </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--模組書封A-->
+      <mj-section mj-class="layout-book-a">
+        <mj-group>
+          <mj-column>
+            <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/book-m.jpg" href="#" />
+            <mj-text mj-class="layout-book-a-title text-black">書名</mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/book-m.jpg" href="#" />
+            <mj-text mj-class="layout-book-a-title text-black">書名</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!--模組書封B-->
+      <mj-section mj-class="layout-book-b">
+        <mj-column>
+          <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/book-l.jpg" href="#" />
+        </mj-column>
+      </mj-section>
+      <!--模組書封C-1-->
+      <mj-section mj-class="layout-book-c1">
+        <mj-column>
+          <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/book-m.jpg" href="#" />
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="layout-book-c2-title text-primary"> 書籍標題介紹 </mj-text>
+          <mj-text mj-class="layout-book-c1-text text-black"> 內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案 內文說明文案建議字數 125 - 150 字 </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--模組書封C-2-->
+      <mj-section mj-class="layout-book-c2">
+        <mj-column>
+          <mj-image src="http://www.iread.com.tw/EDM/newedmtest/images/book-m.jpg" href="#" />
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="layout-book-c2-title text-primary"> 書籍標題介紹 </mj-text>
+          <mj-text mj-class="layout-book-c2-text text-black"> 內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案內文說明文案 內文說明文案建議字數 125 - 150 字 </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--頁尾-備註-->
+      <mj-section mj-class="bottom-remark">
+        <mj-column>
+          <mj-text mj-class="bottom-remark-text text-black"> 實際商品金額需以放入購物車且完成訂單為準 </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--頁尾-取消訂閱-->
+      <mj-section mj-class="bottom-other">
+        <mj-column>
+          <mj-button mj-class="bottom-other-link text-black" href="https://www.iread.com.tw/"> 若您不希望收到電子報，可至灰熊iREAD取消訂閱 </mj-button>
+        </mj-column>
+      </mj-section>
+      <!--頁尾-版權宣告-->
+      <mj-section mj-class="bottom-footer">
+        <mj-column>
+          <mj-text mj-class="bottom-footer-text text-black"> Copyright © 2022 Airiti Inc. All rights reserved. </mj-text>
+        </mj-column>
+      </mj-section>
+      <!--開信碼-此區塊不存在於版面上-->
+      <mj-section>
+        <mj-column>
+          <mj-image mj-class="bottom-letter-code" href="http://www.google-analytics.com/collect?v=1&tid=UA-15412014-1&cid=iread&t=event&ec=email&ea=open&el=recipient_id&cs=newsletter&cm=email&cn=追蹤碼名稱" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
